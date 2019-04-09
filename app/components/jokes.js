@@ -20,6 +20,18 @@ export default class JokesComponent extends Component {
       question: "Knock, knock. Who's there? Sue. Sue who?",
       answer: "Sue-prise!",
     },
+    {
+      question: "Knock, knock. Who's there? Luke. Luke who?",
+      answer: "Luke out below!",
+    },
+    {
+      question: "Knock, knock. Who's there? Wayne. Wayne who?",
+      answer: "Wayne Wayne go away.",
+    },
+    {
+      question: "Knock, knock. Who's there? Les. Les who?",
+      answer: "Les get out of here!",
+    },
   ]
 
   @tracked
