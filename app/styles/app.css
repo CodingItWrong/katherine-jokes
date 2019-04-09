@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  background-color: #decafe;
+  margin: 0 0 20px;
+  padding: 20px;
+}
+
+.question {
+  font-size: 28px;
+  text-align: center;
+}
+
+.answer {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: #decafe;
+  border: solid 0px black;
+}

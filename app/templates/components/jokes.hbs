@@ -1,6 +1,12 @@
-<div>{{this.currentJoke.question}}</div>
+<div class="question">
+  {{this.currentJoke.question}}
+</div>
+
 {{#if this.answerShown}}
-  <div>{{this.currentJoke.answer}}</div>
+  <div class="answer">
+    {{this.currentJoke.answer}}
+  </div>
+
   <button onclick={{this.nextJoke}}>
     Next Joke
   </button>

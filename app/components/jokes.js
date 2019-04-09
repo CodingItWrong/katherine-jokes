@@ -16,6 +16,10 @@ export default class JokesComponent extends Component {
       question: "Knock, knock. Who's there? Duane. Duane who?",
       answer: "Duane the bathtub, please.",
     },
+    {
+      question: "Knock, knock. Who's there? Sue. Sue who?",
+      answer: "Sue-prise!",
+    },
   ]
 
   @tracked
