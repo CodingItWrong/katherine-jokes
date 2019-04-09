@@ -5,16 +5,16 @@ import { action } from '@ember/object';
 export default class JokesComponent extends Component {
   jokes = [
     {
-      question: 'a',
-      answer: 'aa',
+      question: "Knock, knock. Who's there? Olive. Olive who?",
+      answer: "Olive you so much.",
     },
     {
-      question: 'b',
-      answer: 'bb',
+      question: "Knock, knock. Who's there? Ken. Ken who?",
+      answer: "Ken you hear me?",
     },
     {
-      question: 'c',
-      answer: 'cc',
+      question: "Knock, knock. Who's there? Duane. Duane who?",
+      answer: "Duane the bathtub, please.",
     },
   ]
 
