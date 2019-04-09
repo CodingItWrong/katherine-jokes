@@ -28,4 +28,5 @@ button {
   font-size: 28px;
   background-color: #decafe;
   border: solid 0px black;
+  cursor: pointer;
 }
