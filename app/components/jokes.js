@@ -35,6 +35,10 @@ export default class JokesComponent extends Component {
     {
       question: "Why is it hard to play cards in the jungle?",
       answer: "Because there are so many cheetahs!"
+    },
+    {
+      question: "What do you do when you love someone?",
+      answer: 'You say "I\'ll do olive my Emily Jokes with you!"'
     }
   ];
 
