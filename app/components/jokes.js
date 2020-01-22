@@ -42,13 +42,17 @@ export default class JokesComponent extends Component {
     }
   ];
 
-  @tracked currentJokeNumber = 0;
+  @tracked currentJokeNumber = this.randomJokeNumber;
 
   @tracked answerShown = false;
 
   @action
   showAnswer() {
     this.answerShown = true;
+  }
+
+  get randomJokeNumber() {
+    return Math.floor(Math.random() * this.jokes.length);
   }
 
   get currentJoke() {
@@ -58,6 +62,6 @@ export default class JokesComponent extends Component {
   @action
   nextJoke() {
     this.answerShown = false;
-    this.currentJokeNumber = (this.currentJokeNumber + 1) % this.jokes.length;
+    this.currentJokeNumber = this.randomJokeNumber;
   }
 }
