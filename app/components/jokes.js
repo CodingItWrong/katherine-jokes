@@ -39,7 +39,39 @@ export default class JokesComponent extends Component {
     {
       question: "What do you do when you love someone?",
       answer: 'You say "I\'ll do olive my Emily Jokes with you!"'
-    }
+    },
+    {
+      question: "Knock, knock. Who's there? Les. Les who?",
+      answer: "Les go see the movies!"
+    },
+    {
+      question: "What do you call a train that sneezes?",
+      answer: "Ah-choo-choo train!",
+    },
+    {
+      question: "What kind of bug wears a red dress?",
+      answer: "A lady bug!",
+    },
+    {
+      question: "What are soft, white visitors from Mars?",
+      answer: "Martian-mallows!",
+    },
+    {
+      question: "How did the robot wear earrings?",
+      answer: "She had her gears pierced!",
+    },
+    {
+      question: "Why did the sailor love her cookies?",
+      answer: "Because they were full of chocolate ships!",
+    },
+    {
+      question: "What kind of bugs like toast?",
+      answer: "Butterflies!",
+    },
+    {
+      question: "What did the bread do on vacation?",
+      answer: "It loafed around!",
+    },
   ];
 
   @tracked currentJokeNumber = this.randomJokeNumber;
