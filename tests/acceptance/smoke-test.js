@@ -7,6 +7,6 @@ module('Acceptance | smoke test', function(hooks) {
 
   test('visiting /', async function(assert) {
     await visit('/');
-    assert.dom('h1').hasText('Emily Jokes');
+    assert.dom('h1').hasText('Katherine Jokes');
   });
 });
