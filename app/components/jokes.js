@@ -72,6 +72,26 @@ export default class JokesComponent extends Component {
       question: "What did the bread do on vacation?",
       answer: "It loafed around!",
     },
+    {
+      question: "What happens to a frog's car when it breaks down?",
+      answer: "It gets toad away.",
+    },
+    {
+      question: "What did the duck say when he bought lipstick?",
+      answer: "Put it on my bill.",
+    },
+    {
+      question: "Why was 6 afraid of 7?",
+      answer: "Because 7, 8, 9."
+    },
+    {
+      question: "What musical instrument is found in the bathroom?",
+      answer: "A tuba toothpaste.",
+    },
+    {
+      question: "What do you call cheese that's not yours?",
+      answer: "Nacho cheese.",
+    },
   ];
 
   @tracked currentJokeNumber = this.randomJokeNumber;
