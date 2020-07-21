@@ -20,6 +20,18 @@ export default class JokesComponent extends Component {
       question: "Knock, knock.",
       answer: "Who's Jamie?"
     },
+    {
+      question: "Knock, knock. Who's there? Iva. Iva who?",
+      answer: "Iva sore hand from knocking."
+    },
+    {
+      question: "Knock, knock. Who's there? Anita. Anita who?",
+      answer: "Anita borrow a pencil."
+    },
+    {
+      question: "Knock, knock. Who's there? Dwayne. Dwayne who?",
+      answer: "Dwayne the bathtub, it's overflowing!"
+    },
   ];
 
   @tracked currentJokeNumber = this.randomJokeNumber;
